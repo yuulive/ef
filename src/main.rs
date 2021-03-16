@@ -49,7 +49,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         .set_term_width(terminal_size().map(|(width, _)| width.0 as usize).unwrap_or(0))
         .version(CARGO_PKG_VERSION)
         .author(CARGO_PKG_AUTHORS)
-        .about(concat!("A simple tool for converting Simple Chinese to Traditional Chinese(TW).\n\nEXAMPLES:\n", concat_line!(prefix "markdown2html-converter ",
+        .about(concat!("A simple tool for converting Simple Chinese to Traditional Chinese(TW).\n\nEXAMPLES:\n", concat_line!(prefix "ef ",
             "/path/to/file.md                            # Convert /path/to/file.md to /path/to/file.html, titled \"file\"",
             "/path/to/file.md -o /path/to/output.html    # Convert /path/to/file.md to /path/to/output.html, titled \"output\"",
             "/path/to/file.md -t 'Hello World!'          # Convert /path/to/file.md to /path/to/file.html, titled \"Hello World!\"",

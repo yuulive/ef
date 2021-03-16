@@ -1,20 +1,20 @@
-Markdown to HTML Converter
+Ef Markdown to HTML Converter
 ====================
 
-[![Build Status](https://travis-ci.org/magiclen/markdown2html-converter.svg?branch=master)](https://travis-ci.org/magiclen/markdown2html-converter)
+[![Build Status](https://travis-ci.org/magiclen/ef.svg?branch=master)](https://travis-ci.org/magiclen/ef)
 
-Markdown to HTML Converter is a free tool for converting a Markdown file to a single HTML file with built-in CSS and JS.
+Ef Markdown to HTML Converter is a free tool for converting a Markdown file to a single HTML file with built-in CSS and JS.
 
 ## Help
 
 ```
 EXAMPLES:
-markdown2html-converter /path/to/file.md                            # Convert /path/to/file.md to /path/to/file.html, titled "file"
-markdown2html-converter /path/to/file.md -o /path/to/output.html    # Convert /path/to/file.md to /path/to/output.html, titled "output"
-markdown2html-converter /path/to/file.md -t 'Hello World!'          # Convert /path/to/file.md to /path/to/file.html, titled "Hello World!"
+ef /path/to/file.md                            # Convert /path/to/file.md to /path/to/file.html, titled "file"
+ef /path/to/file.md -o /path/to/output.html    # Convert /path/to/file.md to /path/to/output.html, titled "output"
+ef /path/to/file.md -t 'Hello World!'          # Convert /path/to/file.md to /path/to/file.html, titled "Hello World!"
 
 USAGE:
-    markdown2html-converter [FLAGS] [OPTIONS] <MARKDOWN_PATH>
+    ef [FLAGS] [OPTIONS] <MARKDOWN_PATH>
 
 FLAGS:
         --no-safe         Allows raw HTML and dangerous URLs
@@ -85,7 +85,7 @@ If `#{{` - `}}#` or `#{{{` - `}}}#` is used in the input Markdown file, the [mat
 
 ## A Markdown Example
 
-[The Markdown File](https://github.com/magiclen/markdown2html-converter/blob/master/example.md)
+[The Markdown File](https://github.com/magiclen/ef/blob/master/example.md)
 
 [The HTML File](https://jsfiddle.net/magiclen/jgs324w0/latest)
 

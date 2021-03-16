@@ -1,19 +1,19 @@
 [package]
-name = "markdown2html-converter"
-version = "1.1.3"
+name = "ef"
+version = "0.0.0"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2018"
-repository = "https://github.com/magiclen/markdown2html-converter"
-homepage = "https://magiclen.org/markdown2html-converter"
+repository = "https://github.com/yuulive/ef"
+homepage = "https://magiclen.org/ef"
 keywords = ["markdown", "html", "MathJax", "LaTeX", "highlight"]
 categories = ["command-line-utilities"]
-description = "A tool for converting a Markdown file to a single HTML file with built-in CSS and JS."
+description = "Ef is a tool for converting a Markdown file to a single HTML file with built-in CSS and JS."
 readme = "README.md"
 license = "MIT"
 include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE", "resources/*"]
 
 [badges.travis-ci]
-repository = "magiclen/markdown2html-converter"
+repository = "magiclen/ef"
 branch = "master"
 
 [profile.release]
